@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emel Perçem | Kişisel Web Sitesi</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link
+  rel="stylesheet"
+  href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+/>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+</head>
+<body>
+
+<!-- NAVBAR -->
+<header class="navbar">
+    <div class="navbar-container">
+        <div class="logo">
+            <i class="fas fa-map-location-dot"></i> Emel Perçem
+        </div>
+        <nav class="nav-menu">
+            <ul>
+                <li><a href="#home" class="nav-link active">Ana Sayfa</a></li>
+                <li><a href="#about" class="nav-link">Hakkımda</a></li>
+                <li><a href="#tech" class="nav-link">Teknolojiler</a></li>
+                <li><a href="#hobbies" class="nav-link">Hobilerim</a></li>
+                <li><a href="#projects" class="nav-link">Projelerim</a></li>
+                <li><a href="#publications" class="nav-link">Yayınlar</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<!-- HERO SECTION -->
+<section id="home" class="hero">
+    <div class="hero-container">
+
+        <div class="hero-image">
+            <img src="emel.PNG" alt="Emel Perçem">
+        </div>
+
+        <div class="hero-content">
+            <h1 class="fade-in">Merhaba, ben Emel</h1>
+            <p class="hero-tagline">ML • GIS • XAI • PropTech • Smart Cities</p>
+            <p class="hero-text fade-in">
+                Coğrafi Bilgi Sistemleri Uzmanı olarak coğrafi teknolojiler, gayrimenkul teknolojileri ve yapay zekâ alanlarında çalışıyorum.
+                Mekânsal veri analizi, toplu değerleme modelleri ve akıllı şehir uygulamaları üzerine odaklanıyorum.
+                CBS ile makine öğrenmesini birleştirerek değer haritaları ve karar destek sistemleri geliştirmekten keyif alıyorum.
+                Sürekli öğrenme ve dijital dönüşüm benim için vazgeçilmezdir.
+            </p>
+
+        <div class="hero-social">
+
+        <!-- Mail -->
+        <a href="mailto:emelpercem@csb.gov.tr" class="footer-icon" aria-label="Mail">
+            <i class="fas fa-envelope"></i>
+        </a>
+        
+        <a href="https://www.linkedin.com/in/emelpercem?utm_source=share_via&utm_content=profile&utm_medium=member_ios" target="_blank">
+        <i class="fab fa-linkedin-in"></i>
+        </a>
+
+        <a href="https://github.com/percemel" target="_blank">
+        <i class="fab fa-github"></i>
+        </a>
+        </div>    
+        </div>
+
+    </div>
+</section>
+
+<!-- Sparkle -->
+<script src="sparkle.js"></script>
+
+<!-- Effects -->
+<script src="effects.js"></script>
+
+<!-- HAKKIMDA -->
+<section id="about" class="section about-section">
+  <div class="container">
+    <h2 class="section-title">Hakkımda</h2>
+
+    <div class="about-grid">
+      <div class="highlight-item">
+        <h3><i class="fas fa-map-marked-alt"></i> CBS Uzmanlığı</h3>
+        <p>
+          Coğrafi Bilgi Sistemleri alanındaki güçlü altyapım sayesinde mekânsal veri analizi,
+          haritalama ve coğrafi görselleştirme konularında uzmanlaştım. Gelişmiş CBS
+          araçlarını kullanarak coğrafi verilerde gizli kalmış desenleri ve içgörüleri ortaya çıkarıyorum.
+        </p>
+      </div>
+
+      <div class="highlight-item">
+        <h3><i class="fas fa-brain"></i> Yapay Zekâ Entegrasyonu</h3>
+        <p>
+          Yapay zekâyı mekânsal analizle birleştirerek akıllı sistemler geliştiriyorum.
+          Çalışmalarım; makine öğrenmesi tabanlı değerleme modelleri, mekânsal tahminleme
+          ve veri odaklı karar destek sistemlerini kapsamaktadır.
+        </p>
+      </div>
+
+      <div class="highlight-item">
+        <h3><i class="fas fa-building"></i> PropTech Yaklaşımı</h3>
+        <p>
+          Gayrimenkul ve teknolojiyi bir araya getiren PropTech çözümleri üzerine çalışıyorum.
+          Değerleme, piyasa analizi ve akıllı şehir uygulamalarında yenilikçi sistemler geliştirerek
+          sektöre katkı sağlamayı hedefliyorum.
+        </p>
+      </div>
+
+      <div class="highlight-item">
+        <h3><i class="fas fa-chart-area"></i> Mekânsal Analiz</h3>
+        <p>
+          Mekânsal veri setleri üzerinde gelişmiş analiz süreçleri geliştiriyorum.
+          Çalışmalarım; şehir planlama, kaynak yönetimi ve yatırım analizlerinde karar vericilere
+          güçlü içgörüler sunmayı amaçlamaktadır.
+        </p>
+      </div>
+
+      <div class="highlight-item">
+        <h3><i class="fas fa-city"></i> Akıllı Şehirler</h3>
+        <p>
+          CBS, yapay zekâ ve veri analitiğini bir araya getirerek şehirlerin daha verimli,
+          sürdürülebilir ve yaşanabilir hale gelmesine katkı sağlayan projeler geliştiriyorum.
+        </p>
+      </div>
+
+      <div class="highlight-item">
+        <h3><i class="fas fa-rocket"></i> Dijital Dönüşüm</h3>
+        <p>
+          Dijital dönüşümün gücüne inanıyorum. Süreçlerin modernizasyonu, mekânsal iş akışlarının
+          otomasyonu ve yenilikçi teknolojilerin entegrasyonu üzerine çalışıyorum.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TEKNOLOJİLER -->
+<section id="tech" class="section tech-section">
+  <div class="container">
+    <h2 class="section-title">Kullandığım Teknolojiler</h2>
+
+    <div class="tech-grid">
+      <div class="tech-item">ArcGIS Pro</div>
+      <div class="tech-item">QGIS</div>
+      <div class="tech-item">PostgreSQL</div>
+      <div class="tech-item">PostGIS</div>
+      <div class="tech-item">Python</div>
+      <div class="tech-item">HTML</div>
+      <div class="tech-item">CSS</div>
+      <div class="tech-item">JavaScript</div>
+      <div class="tech-item">GeoAI</div>
+      <div class="tech-item">Açıklanabilir Yapay Zekâ</div>
+      <div class="tech-item">Makine Öğrenmesi</div>
+      <div class="tech-item">Mekânsal Analiz</div>
+    </div>
+  </div>
+</section>
+
+<!-- HOBİLER -->
+<section id="hobbies" class="section hobbies-section">
+    <div class="container">
+        <h2 class="section-title">Hobilerim</h2>
+
+        <div class="hobby-grid">
+
+            <div class="hobby-card">
+                <i class="fas fa-dumbbell"></i>
+                <h3>Fitness</h3>
+                <p>Düzenli antrenman yaparak fiziksel dayanıklılığımı ve zihinsel disiplinimi artırmak.</p>
+            </div>
+
+            <div class="hobby-card">
+                <i class="fas fa-volleyball-ball"></i>
+                <h3>Voleybol</h3>
+                <p>Takım ruhunu ve koordinasyonu geliştiren dinamik ve enerjik bir spor.</p>
+            </div>
+
+            <div class="hobby-card">
+                <i class="fas fa-code"></i>
+                <h3>Kodlama</h3>
+                <p>Yeni projeler üretmek, algoritmalar geliştirmek ve teknik yetkinliğimi sürekli geliştirmek.</p>
+            </div>
+
+            <div class="hobby-card">
+                <i class="fas fa-plane"></i>
+                <h3>Seyahat Etmek</h3>
+                <p>Farklı şehirleri ve kültürleri keşfederek yeni bakış açıları kazanmak.</p>
+            </div>
+
+            <div class="hobby-card">
+                <i class="fas fa-camera"></i>
+                <h3>Fotoğrafçılık</h3>
+                <p>Anları yakalamak ve şehir estetiğini görsel hikâyelere dönüştürmek.</p>
+            </div>
+
+            <div class="hobby-card">
+                <i class="fas fa-book"></i>
+                <h3>Kitap Okumak</h3>
+                <p>Kişisel gelişim, psikoloji ve edebiyat üzerine okumalar yapmak.</p>
+            </div>
+
+            <div class="hobby-card">
+                <i class="fas fa-chess"></i>
+                <h3>Satranç</h3>
+                <p>Stratejik düşünme ve analitik becerileri geliştiren zihinsel bir spor.</p>
+            </div>
+
+            <div class="hobby-card">
+                <i class="fas fa-lightbulb"></i>
+                <h3>Yeni Teknolojileri Öğrenmek</h3>
+                <p>Yapay zekâ ve dijital araçları keşfederek kendimi sürekli geliştirmek.</p>
+            </div>
+
+            <div class="hobby-card">
+                <i class="fas fa-seedling"></i>
+                <h3>Bitki Yetiştirmek</h3>
+                <p>Doğayla bağ kurmak, sabrı ve sürdürülebilir yaşam bilincini geliştirmek.</p>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- SEYEHAT HARİTASI -->
+<section id="travel-map" class="section travel-section">
+  <div class="container">
+    <h2 class="section-title">Seyahat Haritam</h2>
+    <div class="map-card">
+      <div id="leafletMap"></div>
+    </div>
+  </div>
+</section>
+
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  const map = L.map("leafletMap", { scrollWheelZoom: false, zoomControl: true }).setView([39.0, 35.0], 6);
+
+  L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+    maxZoom: 18,
+    attribution: '&copy; OpenStreetMap'
+  }).addTo(map);
+
+  const cities = [
+  { name: "Van (Erciş)", lat: 39.0259, lng: 43.3596 },
+  { name: "Tatvan", lat: 38.4929, lng: 42.2827 },
+  { name: "Gümüşhane", lat: 40.4603, lng: 39.4814 },
+  { name: "Trabzon", lat: 41.0015, lng: 39.7178 },
+  { name: "Ordu", lat: 40.9862, lng: 37.8797 },
+  { name: "Ankara", lat: 39.9334, lng: 32.8597 },
+  { name: "Bursa", lat: 40.1950, lng: 29.0600 },
+  { name: "İzmir", lat: 38.4237, lng: 27.1428 },
+  { name: "Antalya", lat: 36.8969, lng: 30.7133 },
+
+  { name: "İstanbul", lat: 41.0082, lng: 28.9784 },
+  { name: "Zonguldak", lat: 41.4564, lng: 31.7987 },
+  { name: "Bartın", lat: 41.6344, lng: 32.3375 },
+  { name: "Sivas", lat: 39.7500, lng: 37.0150 },
+  { name: "Kayseri", lat: 38.7225, lng: 35.4875 },
+  { name: "Malatya", lat: 38.3552, lng: 38.3095 },
+  { name: "Eskişehir", lat: 39.7767, lng: 30.5206 },
+  { name: "Bolu", lat: 40.5760, lng: 31.5788 },
+  { name: "Rize", lat: 41.0201, lng: 40.5234 },
+  { name: "Elazığ", lat: 38.6748, lng: 39.2232 },
+  { name: "Gaziantep", lat: 37.0662, lng: 37.3833 }
+];
+
+  const pulseIcon = L.divIcon({
+    className: "pulse-icon",
+    html: `<div class="pulse-marker"></div>`,
+    iconSize: [14, 14],
+    iconAnchor: [7, 7]
+  });
+
+  const bounds = [];
+
+  cities.forEach(c => {
+    bounds.push([c.lat, c.lng]);
+    L.marker([c.lat, c.lng], { icon: pulseIcon })
+      .addTo(map)
+      .bindPopup(`<b>${c.name}</b>`);
+  });
+
+  map.fitBounds(bounds, { padding: [30, 30] });
+
+ setTimeout(() => {
+  map.invalidateSize();
+}, 200);
+});
+</script>
+
+<!-- PROJELER -->
+<section id="projects" class="section projects-section">
+    <div class="container">
+        <h2 class="section-title">Projelerim</h2>
+
+        <div class="project-grid">
+
+            <!-- 1 -->
+            <div class="project-card">
+                <h3>PropTech Odaklı Toplu Değerleme</h3>
+                <p>
+                    TUCBS verileri kullanılarak yapay zekâ tabanlı toplu değerleme modeli geliştirilmesi,
+                    gayrimenkul değer haritalarının üretilmesi ve e-Devlet altyapısı üzerinden erişime sunulmasına
+                    yönelik örnek uygulama geliştirilmesi.
+                </p>
+
+                <div class="badges">
+                    <span class="badge">Python</span>
+                    <span class="badge">Machine Learning</span>
+                    <span class="badge">ArcGIS Pro</span>
+                    <span class="badge">TUCBS</span>
+                </div>
+
+                <p class="project-impact">
+                    Etki: Kamu verileriyle veri odaklı değer haritaları üretilmesi ve karar destek mekanizması oluşturulması.
+                </p>
+            </div>
+
+            <!-- 2 -->
+            <div class="project-card">
+                <h3>Afet Sonrası Hasar Tespit Haritaları</h3>
+                <p>
+                    2022 Düzce Depremi ve 6 Şubat 2023 Kahramanmaraş Depremleri sonrası
+                    uydu görüntüleri kullanılarak hasar tespit analizlerinin yapılması
+                    ve yoğun etkilenen bölgeler için kartografik haritaların hazırlanması.
+                </p>
+
+                <div class="badges">
+                    <span class="badge">Uzaktan Algılama</span>
+                    <span class="badge">CBS Analizi</span>
+                    <span class="badge">Afet Yönetimi</span>
+                </div>
+
+                <p class="project-impact">
+                    Etki: Kriz anında hızlı karar alma süreçlerine mekânsal veri desteği sağlanması.
+                </p>
+            </div>
+
+            <!-- 3 -->
+            <div class="project-card">
+                <h3>Kentsel Dönüşüm CBS Otomasyon Sistemi (KD&AF)</h3>
+                <p>
+                    Yerel yönetim verilerinin kullanıldığı CBS tabanlı otomasyon sisteminin
+                    geliştirilmesi, pilot illerde Kent Bilgi Sistemi kurulumu ve
+                    web servis altyapısının yaygınlaştırılması.
+                </p>
+
+                <div class="badges">
+                    <span class="badge">Web Servis</span>
+                    <span class="badge">CBS Otomasyonu</span>
+                    <span class="badge">Eğitim & Yaygınlaştırma</span>
+                </div>
+
+                <p class="project-impact">
+                    Etki: Yerel yönetimlerde dijital dönüşüm süreçlerinin hızlandırılması.
+                </p>
+            </div>
+
+            <!-- 4 -->
+            <div class="project-card">
+                <h3>Ulusal Risk Kalkanı & CBS Strateji Çalışmaları</h3>
+                <p>
+                    Ulusal Risk Kalkanı Modeli kapsamında CBS ve Akıllı Şehirler Kurulu raportörlüğü,
+                    CBS Strateji ve Eylem Planı oluşturulmasına katkı sağlanması.
+                </p>
+
+                <div class="badges">
+                    <span class="badge">Strateji Geliştirme</span>
+                    <span class="badge">Akıllı Şehirler</span>
+                    <span class="badge">Politika Analizi</span>
+                    <span class="badge">Kamu Yönetimi</span>
+                </div>
+
+                <p class="project-impact">
+                    Etki: Ulusal ölçekte mekânsal veri yönetimi ve akıllı şehir politikalarına katkı.
+                </p>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- YAYINLAR & AKADEMİK ÇALIŞMALAR -->
+<section id="publications" class="section publications-section">
+  <div class="container">
+    <h2 class="section-title">Yayınlar & Akademik Çalışmalar</h2>
+
+    <div class="pub-grid">
+
+      <!-- Tez -->
+      <div class="pub-card">
+        <div class="pub-top">
+          <span class="pub-type">Coğrafi Bilgi Sistemi Uzmanlık Tezi</span>
+          <span class="pub-year">2025</span>
+        </div>
+
+        <h3 class="pub-title">PropTech Odaklı Toplu Değerleme: TUCBS Verilerine Dayalı Yapay Zeka ve Coğrafi Bilgi
+Sistemleri Perspektifi</h3>
+        <p class="pub-meta">
+          Emel Perçem — Coğrafi Bilgi Sistemleri Uzmanı
+        </p>
+
+        <p class="pub-desc">
+          Kısa özet: Bu çalışma, gayrimenkul değerleme süreçlerinde Makine Öğrenmesi (ML), Coğrafi Bilgi Sistemleri (CBS) ve Açıklanabilir Yapay Zekâ (XAI) entegrasyonunu ele almaktadır. Ankara’nın Yenimahalle ve Keçiören ilçelerine ait konut verileri kullanılarak toplu değerleme analizi gerçekleştirilmiş ve farklı ML algoritmalarının performansları karşılaştırılmıştır. Random Forest, XGBoost, LightGBM ve diğer ensemble yöntemler test edilmiş; hiperparametre optimizasyonu (GridSearchCV) ve Permütasyon Tabanlı Özellik Önemi (PFI) analizi uygulanmıştır. Modeller R², RMSE ve MAE metrikleriyle değerlendirilmiş; SHAP analizi ile karar mekanizmaları yorumlanmıştır. Bulgular, konut değerini belirlemede en güçlü değişkenlerin fiziksel yapı özellikleri olduğunu göstermiştir. XGBoost ve LightGBM modelleri %91–92 R² performansıyla en başarılı sonuçları üretmiştir. Ayrıca altıgen ızgara tabanlı değer haritaları oluşturularak mekânsal dağılım görselleştirilmiştir. Çalışma, Türkiye’de PropTech temelli bütünleşik değerleme sistemlerine geçiş için bilimsel ve uygulamalı bir model önerisi sunmaktadır.
+        </p>
+
+        <div class="pub-actions">
+          <!-- Dosya/Link varsa -->
+          <a class="mini-link" href="Emel Perçem_Tez.pdf" target="_blank" rel="noopener noreferrer">📄 PDF</a>
+        </div>
+      </div>
+
+      <!-- Makale -->
+      <div class="pub-card">
+        <div class="pub-top">
+          <span class="pub-type">Yayınlanan Makale</span>
+          <span class="pub-year">2025</span>
+        </div>
+
+        <h3 class="pub-title">TUCBS Verileriyle Coğrafi Bilgi Sistemleri ve Açıklanabilir Yapay Zekâ Tabanlı Toplu Değerleme</h3>
+        <p class="pub-meta">
+          Dergi: Çevre, Şehir ve İklim Dergisi • Cilt/Sayı: 40/8 • DOI/Link: https://dergipark.org.tr/tr/pub/csid/article/1827144
+        </p>
+
+        <p class="pub-desc">
+          Kısa özet: ML–GIS–XAI Entegrasyonu ile Konut Değer Tahmini
+Bu çalışma, TUCBS verileri ve 37.095 adet konut satış kaydı kullanılarak Ankara’nın Yenimahalle ve Keçiören ilçelerinde makine öğrenmesi tabanlı toplu değerleme modeli geliştirmektedir. Mekânsal veriler (DEM, ulaşım, eğitim, sağlık ve POI katmanları) ile zenginleştirilen veri seti, özellik seçimi (PFI) ve hiperparametre optimizasyonu (GridSearchCV) sonrası sekiz farklı ML algoritması ile test edilmiştir.
+Sonuçlar, XGBoost, LightGBM ve Random Forest modellerinin en yüksek doğruluğu sağladığını (R² ≈ 0.91), LightGBM’in ise zaman-performans dengesi açısından öne çıktığını göstermektedir. SHAP analizi ile model kararları açıklanmış; konut değerini en çok etkileyen değişkenlerin toplam kat sayısı, brüt alan, bina yaşı ve bulunduğu kat olduğu belirlenmiştir.
+Üretilen değerler 500 m² altıgen ızgara yöntemiyle haritalandırılarak servis edilmiş olup, çalışma ML–GIS–XAI entegrasyonunun şeffaf ve ölçeklenebilir bir değerleme altyapısı sunduğunu ortaya koymaktadır.
+        </p>
+
+        <div class="pub-actions">
+          <a class="mini-link" href="TUCBS Verileriyle Coğrafi Bilgi Sistemleri ve Açıklanabilir Yapay Zekâ Tabanlı Toplu Değerleme.pdf" target="_blank" rel="noopener noreferrer">📄 PDF</a>
+          <a class="mini-link" href="https://dergipark.org.tr/tr/download/article-file/5436221" target="_blank" rel="noopener noreferrer">🔗 Makale Linki</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer">
+    <div class="footer-container">
+        <div class="footer-left">
+            © 2026 Emel Perçem | Kişisel Web Sitesi
+        </div>
+
+        <div class="footer-right">
+
+            <!-- Mail -->
+            <a href="mailto:emelpercem@csb.gov.tr" class="footer-icon" aria-label="Mail">
+                <i class="fas fa-envelope"></i>
+            </a>
+
+            <!-- LinkedIn -->
+            <a href="https://www.linkedin.com/in/emelpercem?utm_source=share_via&utm_content=profile&utm_medium=member_ios"
+               target="_blank"
+               class="footer-icon"
+               aria-label="LinkedIn">
+                <i class="fab fa-linkedin-in"></i>
+            </a>
+
+            <!-- GitHub -->
+            <a href="https://github.com/percemel"
+               target="_blank"
+               class="footer-icon"
+               aria-label="GitHub">
+                <i class="fab fa-github"></i>
+            </a>
+
+        </div>
+    </div>
+</footer>
+
+
+<script src="script.js"></script>
+</body>
+</html>
